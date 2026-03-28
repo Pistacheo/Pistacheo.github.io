@@ -1,0 +1,142 @@
+html{
+    display: grid;
+    background-color: #F6DDF4;
+}
+
+.first-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30em;
+}
+
+.image-container{
+    display: block;
+    height: 30em;
+    background-color: #BDBEFB;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+    border-radius: 100%;
+}
+
+
+.bio-container{
+    display: block;
+    height: 30em;
+    background-color: #BDBEFB;
+    width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-container h2{
+    font-size: 2.5rem;
+    font-family: "Kotta One", serif;
+}
+
+.bio-container p{
+    font-size: 1.5em;
+    font-family: "Kotta One", serif;
+    line-height: 1.8em;
+}
+
+.title{
+    font-family: "Kotta One", serif;
+    text-align: center;
+    font-size: 4rem;
+    color: #0004FF;
+    -webkit-text-stroke: .1px #FBFF00;
+}
+.subtitle{
+    font-family: "Kotta One", serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.kirbo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 20em;
+}
+
+.para-1{
+    font-family: "Kotta One", serif;
+    text-align: center;
+    background-color: #BDBEFB;
+    width: 95%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.para-2{
+    font-family: "Kotta One", serif;
+    text-align: center;
+    background-color: #BDBEFB;
+}
+
+.para-3{
+    font-family: "Kotta One", serif;
+    text-align: center;
+    background-color: #BDBEFB;
+    width: 95%;
+    margin-left: auto;
+}
+
+.list-header{
+    display: block;
+    background-color: #FEFFB3;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 30px;
+    border-width: 3px;
+    border-style: solid;
+    margin: 2em auto;
+    border-color: #0004FF
+}
+
+.list-header h2{
+    font-family: "Kotta One", serif;
+    font-size: 2.5rem;
+}
+
+.list{
+    display: block;
+    font-family: "Kotta One", serif;
+    background-color: #FEFFB3;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #0004FF;
+    list-style-position: inside;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.list a{
+    font-size: 1.5rem;
+    color: #0004FF;
+}
+.kotta-one-regular {
+  font-family: "Kotta One", serif;
+  font-weight: 400;
+  font-style: regular;
+}
